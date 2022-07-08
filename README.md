@@ -1,6 +1,8 @@
 # About foo-Wallpaper-Feh-Gif
 This is just a loop script that sets a gif as a wallpaper. Supports transparency.
-#Edited by Toast for a bit more simplicity
+
+# Edited by Toast for a bit more simplicity
+No terminal needed to run, less clutter
 
 # More gif here
 - https://imgur.com/a/F6w9Vr4
@@ -55,7 +57,7 @@ rm -rf /tmp/back4
 sudo sed -i s'@<policy domain="resource" name="memory" value=".*"/>@<policy domain="resource" name="memory" value="2GiB"/>@'g /etc/ImageMagick-6/policy.xml
 ```
 
-#Support the original creator:
+# Support the original creator:
 <br>
 <br>
 <a href="https://ko-fi.com/thomas1010">
