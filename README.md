@@ -1,10 +1,6 @@
 # About foo-Wallpaper-Feh-Gif
 This is just a loop script that sets a gif as a wallpaper. Supports transparency.
-Edited by Toast for a bit more simplicity
-
-![desktopGif](https://user-images.githubusercontent.com/36126914/154766367-2c3d9c80-3cdc-4790-b15c-7eba5eee9fd2.gif)
-<img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation2.gif"  />
-<img src="https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif/raw/master/desktop-animation4.gif"  />
+#Edited by Toast for a bit more simplicity
 
 # More gif here
 - https://imgur.com/a/F6w9Vr4
@@ -17,15 +13,6 @@ Edited by Toast for a bit more simplicity
 - imagemagick
 - for auto speed calculation, bc package is needed
 
-# To run it
-Download back4.sh and a gif.
-For ubuntu/xfce set prog=$select4 in back4.sh , You can set stretched style in desktop panel.
-
-```
-curl -L https://raw.githubusercontent.com/thomas10-10/foo-Wallpaper-Feh-Gif/master/install.sh | bash
-back4.sh 0.010 gif/pixel.gif &
-#back4 speed pathToGif &
-```
 # auto speed calculation
 set 'auto' speed option for automatically calculate speed (30 frames per second)
 
@@ -68,7 +55,7 @@ rm -rf /tmp/back4
 sudo sed -i s'@<policy domain="resource" name="memory" value=".*"/>@<policy domain="resource" name="memory" value="2GiB"/>@'g /etc/ImageMagick-6/policy.xml
 ```
 
-
+#Support the original creator:
 <br>
 <br>
 <a href="https://ko-fi.com/thomas1010">
